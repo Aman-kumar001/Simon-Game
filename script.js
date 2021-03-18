@@ -7,16 +7,19 @@ var b1=document.getElementById("c1");
 var b2=document.getElementById("c2");
 var b3=document.getElementById("c3");
 var b4=document.getElementById("c4");
+var check=$("#check");
+setTimeout(() => {check.fadeOut();},1000);
+setTimeout(() => {check[0].innerHTML="correct";},2000);
 //creating array as answer
 
 function create(){
-    heading.innerHTML="LEVEL::"+len +" of Simon's Game";
+    heading.innerHTML="LEVEL: "+len +" of Simon's Game";
     if(len==1){
-        ans[len-1]=Math.ceil(Math.random()*10)%4;
+        ans[len-1]=Math.ceil(Math.random()*1000)%4;
         console.log(ans);
     }
     else{
-        ans[len-1]=Math.ceil(Math.random()*10)%4;
+        ans[len-1]=Math.ceil(Math.random()*1000)%4;
         console.log(ans);
     }
     //fading in and out next element of the sequence
@@ -44,7 +47,8 @@ b1.onclick=function(){
         i++;
     if(i==len && flag==0){
         i=0;
-        alert("correct");
+        //alert("correct");
+        check.fadeIn().fadeOut();
         input=[];
         len++;
         create();
@@ -67,7 +71,8 @@ b2.onclick=function(){
         i++;
     if(i==len && flag==0){
         i=0;
-        alert("correct");
+        //alert("correct");
+        check.fadeIn().fadeOut();
         input=[];
         len++;
         create();
@@ -90,7 +95,8 @@ b3.onclick=function(){
         i++;
     if(i==len && flag==0){
         i=0;
-        alert("correct");
+        //alert("correct");
+        check.fadeIn().fadeOut();
         input=[];
         len++;
         create();
@@ -113,7 +119,8 @@ b4.onclick=function(){
         i++;
     if(i==len&&flag==0){
         i=0;
-        alert("correct");
+        //alert("correct");
+        check.fadeIn().fadeOut();
         input=[];
         len++;
         create();

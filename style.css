@@ -10,9 +10,11 @@ body{
 }
 .level{
     text-align: center;
-    font-size: 2rem;
-    padding-top: 10px;
-    margin-bottom: 20px;
+    font-size: 4rem;
+    padding-top:0;
+    position:relative;
+    top:-12px;
+    margin-bottom: -10px;
 }
 .hori{
     margin:0 auto;
@@ -25,6 +27,7 @@ body{
     height:260px;
     border-radius: 50%;
     position: relative;
+    box-shadow: 5px 5px 10px gray;
 }
 .verti{
     width:28%;
@@ -49,4 +52,9 @@ body{
     background-color: #4b3edd;
     margin-top: 16%;
     left:-9.8%;
+}
+#check{
+    position:absolute;
+    top:10%;
+    left:10%;
 }
