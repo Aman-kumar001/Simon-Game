@@ -10,4 +10,9 @@
 3. JAVASCRIPT
 4. LITTLE OF JQUERY
 
-
+## HOW TO PLAY:
+1. Let it load first as it is very important.
+2. Click the highlighted button with all the previous highlighted ones creating a sequence.
+3. If the sequence matches, CHEERS!! one more element is added to you sequence.
+4. If it doesn't match, don't worry even i am bad in this.
+5. Current level will be shown at the top.
