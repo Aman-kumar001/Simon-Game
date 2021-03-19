@@ -33,7 +33,7 @@ function create(){
 b1.onclick=function(){
     var flag=0;
     input[i]=0;
-    console.log(i);
+    // console.log(i);
     if(input[i]!==ans[i] && i<len){
         alert("GAME OVER");
         i=0;
@@ -57,7 +57,7 @@ b1.onclick=function(){
 b2.onclick=function(){
     var flag=0;
     input[i]=1;
-    console.log(i);
+    //console.log(i);
     if(input[i]!==ans[i] && i<len){
         alert("GAME OVER");
         i=0;
@@ -105,7 +105,7 @@ b3.onclick=function(){
 b4.onclick=function(){
     var flag=0;
     input[i]=3;
-    console.log(i);
+    //console.log(i);
     if(input[i]!==ans[i] && i<len){
         alert("GAME OVER");
         i=0;

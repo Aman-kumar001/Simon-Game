@@ -27,7 +27,6 @@ body{
     height:260px;
     border-radius: 50%;
     position: relative;
-    box-shadow: 5px 5px 10px gray;
 }
 .verti{
     width:28%;
@@ -57,4 +56,7 @@ body{
     position:absolute;
     top:10%;
     left:10%;
+}
+.shadow{
+    box-shadow: 5px 5px 10px gray;
 }
